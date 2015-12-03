@@ -19,7 +19,7 @@ bot.get(/merda|suca|stronzo|fango|schifo|cazzone|idiota|scemo|pazzo/, function(m
   bot.send(answer);
 });
 bot.get(/scemo/, function(message) {
-  var answer = new Message().text('Tu ci sei scema 😞').to(message.chat.id);
+  var answer = new Message().text('Tu ci sei scema :-(').to(message.chat.id);
   bot.send(answer);
 });
 bot.get(/ahah|ahahah|ihih|ihihih|lol|asd/, function(message) {
@@ -46,3 +46,4 @@ bot.command('marilu', function(message) {
   var answer = new Message().text('Marilù è simpatica come un dito in culo e puzza pure peggio').to(message.chat.id);
   bot.send(answer);
 });
+
