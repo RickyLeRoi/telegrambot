@@ -47,3 +47,7 @@ bot.command('marilu', function(message) {
   bot.send(answer);
 });
 
+bot.command('stipendio', function(message) {
+  var answer = new Message().text('Dehihihihihih. ITALIOTA! Meglio essere pagati in sogni!!!').to(message.chat.id);
+  bot.send(answer);
+});
